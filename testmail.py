@@ -2,7 +2,7 @@ import smtplib as s
 ob= s.SMTP('smtp.gmail.com',587)
 ob.ehlo()
 ob.starttls()
-ob.login('tiyashah313@gmail.com','dxzt arne omha prfz')
+ob.login('tiyashah313@gmail.com','your app-password here')
 subject = "test python"
 body = "I Love Python"
 message = "subject:{}\n\n{}".format(subject,body)
